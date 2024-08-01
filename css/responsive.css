@@ -1,0 +1,47 @@
+@media(max-width: 380px) {
+  .banner {
+    gap: 20px;
+  }
+  
+  .profile {
+    gap: 10px;
+  }
+  
+  .container-foto {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .container-foto::before {
+    width: 165px;
+    height: 165px;
+  }
+  
+  .profile h1 {
+    font-size: 28px;
+  }
+  
+  .link {
+    padding: 5px 0;
+  }
+  
+  .link img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 500px) {
+  .profile h1 {
+    font-size: 32px;
+  }
+  
+  .estatisticas h2 {
+    font-size: 42px;
+  }
+  
+  .cabecalho-tabela tr th, .corpo-tabela tr td {
+    padding: 20px;
+    font-size: 24px;
+  }
+}
